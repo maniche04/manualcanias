@@ -1,1 +1,0 @@
-Welcome to the Canias ERP Help Page
