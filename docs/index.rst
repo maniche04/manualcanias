@@ -18,8 +18,8 @@ The Canias ERP Manual has been developed to centralize the manuals and how-to's 
    :maxdepth: 2
    :caption: End User Documentation
 
-   basics/*
-   sales/*
+   basics/login
+   sales/salt01/introduction
 
 .. _dev-docs:
 
