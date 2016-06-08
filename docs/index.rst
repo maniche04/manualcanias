@@ -9,10 +9,23 @@ Canias ERP Documentation
 
 The Canias ERP Manual has been developed to centralize the manuals and how-to's for all processes related to Canias. The manual has been segregated into two different sections.
 
-* Developer Manual
-* End User Manual
+* :ref:`user-docs`
+* :ref:`dev-docs`
+
+.. _user-docs:
 
 .. toctree::
    :maxdepth: 2
+   :caption: End User Documentation
 
-   basics/login
+   basics/*
+   sales/*
+
+.. _dev-docs:
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Developer Documentation
+
+   dev/index
