@@ -27,10 +27,10 @@ Logging In
 ----------
 Although the only details an end user would have to fill in for login is 'Username' and 'Password', the input parameters that can be defined in the login dialog box have been described below:
 
-    .. image:: login_dialog.PNG
-	    :align: center
-	    :scale: 75%
-	    :alt: Launch using Taskbar
+.. image:: login_dialog.PNG
+    :align: center
+    :scale: 75%
+    :alt: Launch using Taskbar
 
 	.. warning:: Do not make any changes to these parameters unless you are confident in what you're doing. Incorrect parameters will lead to failures in logging into the system.
 
@@ -48,5 +48,4 @@ Enter the username and password that has been asissned to you in the 'User Name'
 Common Login Errors
 -------------------
 There might be several reasons that could lead to failure in logging in to the system. Some of the common errors have been discussed below:
-
 .. info:: This section is to be updated with the list of common login failures and the possible reasons behind them.
