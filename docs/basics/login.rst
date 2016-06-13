@@ -15,7 +15,7 @@ Launching the Application
     :scale: 75%
     :alt: Launch using Start Menu
 
-	Alternatively, double click the desktop icon, click the launcher in the taskbar, if available.
+* Alternatively, double click the desktop icon, click the launcher in the taskbar, if available.
 
 .. image:: login_taskbar.PNG
     :align: center
