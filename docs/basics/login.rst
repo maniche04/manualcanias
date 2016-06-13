@@ -22,10 +22,14 @@ Launching the Application
     :scale: 75%
     :alt: Launch using Taskbar
 
-* The application might take a few seconds to load during the first run upon fresh boot. This is because the application has to go through various stages of checking for updates, loading from cache and creation of the virtual java environment. Messages like 'Downloading Application','Verifying Application' are typically encountered. Kinldy wait until the following login screen is shown.
+* The application might take a few seconds to load during the first run upon fresh boot. This is because the application has to go through various stages of checking for updates, loading from cache and creation of the virtual java environment. Messages like 'Downloading Application', 'Verifying Application' are typically encountered. Kinldy wait until the following login screen is shown.
 
 .. image:: login_dialog.PNG
     :align: center
     :scale: 75%
     :alt: Launch using Taskbar
+
+Logging In
+----------
+* The login dialog has the following input parameters:
 
