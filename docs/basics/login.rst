@@ -1,6 +1,14 @@
 Logging in to Canias
 ************************
 
+Overview
+---------
 This document presents a guide on how to login to canias.
 
-.. warning:: This documentation is currenty a work in progress. In case of any enquiries kinldy email manish@jizanperfumes.com
+
+Steps
+-----
+* Click on the Start Menu and type in 'Canias', and click the shortcut as shown below:
+
+.. image:: login_start.png
+
