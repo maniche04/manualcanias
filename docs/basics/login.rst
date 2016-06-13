@@ -8,12 +8,14 @@ This document presents the simple steps of launching the ERP application, descri
 
 Launching the Application
 -------------------------
-* To launch the application search the application in Start Menu by typing in 'Canias'. Alternatively, double click the desktop icon, click the launcher in the taskbar, if available.
+* To launch the application search the application in Start Menu by typing in 'Canias'. 
 
 .. image:: login_start.png
     :align: center
     :scale: 75%
     :alt: Launch using Start Menu
+
+	Alternatively, double click the desktop icon, click the launcher in the taskbar, if available.
 
 .. image:: login_taskbar.png
     :align: center
