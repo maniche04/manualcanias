@@ -1,8 +1,10 @@
 Sales Module
 *************
 
+Sales Module is for creation of all sales related transactions in the system.
+
 .. toctree::
    :maxdepth: 2
-   :caption: Sales Module - Transactions
+   :caption: List of Transactions
 
    salt01/index
