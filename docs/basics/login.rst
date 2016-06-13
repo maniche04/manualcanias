@@ -23,8 +23,8 @@ Alternatively, double click the desktop icon, click the launcher in the taskbar,
 
 The application might take a few seconds to load during the first run upon fresh boot. This is because the application has to go through various stages of checking for updates, loading from cache and creation of the virtual java environment. Messages like 'Downloading Application', 'Verifying Application' are typically encountered. Kinldy wait until the login screen is shown.
 
-Logging In
-----------
+Login Parameters
+----------------
 Although the only details an end user would have to fill in for login is 'Username' and 'Password', the input parameters that can be defined in the login dialog box have been described below:
 
 .. image:: login_dialog.PNG

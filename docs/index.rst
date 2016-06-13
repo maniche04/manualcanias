@@ -17,11 +17,11 @@ The Canias ERP Manual has been developed to centralize the manuals and how-to's 
 .. _user-docs:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :caption: End User Documentation
 
    basics/login
-   sales/salt01/introduction
+   sales/salesindex
 
 .. _dev-docs:
 
