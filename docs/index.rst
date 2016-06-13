@@ -20,7 +20,7 @@ The Canias ERP Manual has been developed to centralize the manuals and how-to's 
    :maxdepth: 4
    :caption: End User Documentation
 
-   basics/login
+   basics/index
    sales/index
 
 .. _dev-docs:
