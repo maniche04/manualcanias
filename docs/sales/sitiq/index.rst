@@ -26,7 +26,7 @@ The module includes following filters.
 
 .. image:: sitiq_filters.PNG
 	:align: center
-	:scale: 50%
+	:scale: 75%
 	:alt: SITIQ window
 
 * **Company** - Company for which the information is to be displayed.
@@ -35,12 +35,14 @@ The module includes following filters.
 
 .. image:: filter_location.PNG
 	:align: center
-	:scale: 50%
+	:scale: 75%
 	:alt: SITIQ window
 
 * **Material** - Filter that accepts the Material Code as input.
-* **Material Name** - This is the filter which accepts the material name (or part of it) as input. This is the most common filter used in the transaction, and can be used as a handy shortcut to quickly find items. This has been discussed in detail below:
+* **Material Name** - This is the filter which accepts the material name (or part of it) as input.
 
+	.. note:: This is the most common filter used in the transaction, and can be used as a handy shortcut to quickly find items.
+	
 	* Any part of the name can be used. For example: 'cool water' when searching for 'DAVIDOFF COOL WATER (L) EDT 100 ml'
 	* The system automatically convers blank spaces to '%' allowing easy search. For example 'cool water 100' will yeild results with all cool water items of size 100ml. Similarly 'c w 100' would yeild the results of items which have c, w and 100 characters in them.
 
