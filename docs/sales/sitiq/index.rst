@@ -117,10 +117,10 @@ Creating Sales Orders
 ---------------------
 This section describes how the sales order can be created.
 
-.. info:: This section shall be updated during the creation of guide for 'SALT01 - Sales Documents'.
+.. note:: This section shall be updated during the creation of guide for 'SALT01 - Sales Documents'.
 
 Creating Transfer Orders
 ------------------------
 This section describes how the transfer orders can be created.
 
-.. info:: This section shall be updated in the future.
+.. note:: This section shall be updated in the future.
