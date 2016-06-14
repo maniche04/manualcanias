@@ -48,9 +48,11 @@ The module includes filters primarily aimed at narrowing down the list of items 
 
 In addition to the filters discussed above, there are checkbox filters that controls the visibility of information in SITIQ.
 
-.. warning:: These checkboxes might not be available to all users because of the access rights.
+.. info:: These checkboxes might not be available to all users because of the access rights.
 
 * **List Stock Materials?** - If the checkbox is selected, the system only displays items which we currently have in stock in the selected plant / warehouse. To view all items, simply uncheck this checkbox.
+
+.. _checkbox_salqty:
 * **Incl. SalQty** - The sales orders created in canias do not reflect in the inventory side untill the delivery note is created and the items are issued out. In this case, the default list shown in SITIQ would display full stock of items, without considering those already created sales orders. This checkbox allows the user to view the net stock for items (available stock - stocks used in current sales orders). Click the checkbox to view Net Quantity, and remove the checkmark to view Gross Quantity.
 * **Change Price?** - This button is a support to the process 'Changing System Selling Price'. Clicking the button shows an additional column in the result table for editing of the system selling prices.
 * **Enable Cost** - This checkbox serves as user access control for display of cost related information for the item. If this checkbox is selected, the fourth tab in the lower section of the screen becomes active. This tab displays weighted average cost rate for the item that is currently selected in the result table.
@@ -62,10 +64,29 @@ In addition to the filters discussed above, there are checkbox filters that cont
 
 * **Show Stock** - This checkbox serves as user access control for display of stocks across all companies and plants in canias. If this checkbox is selected, the first tab in the lower part of screen becomes active. This tab displays the availability of selected item from the result set in all plants and warehouse.
 
-View Stock Status
------------------
+Searching for Items
+-------------------
 * Enter the required filter criterias in the filter boxes. Most commonly the filters would be entered in the 'Description' field where any part of the name of the item is entered.
 * Press the 'F3' button or click the 'Search' button.
+
+.. image:: sitiq_search.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ window
+
+Depending on the search filters provided, the system looks up the stock information and lists them in the result window.
+
+Understanding the Result Table
+------------------------------
+The result table in SITIQ displays key information related to the item, which as been discussed below:
+
+.. image:: sitiq_result.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ window
+
+* **Description** - This column displays the name of the Material.
+* **STK** - The second column displays the available stock for the items. The result in this column varies with the filter checkbox 'Incl. SalQty' as described here - :ref:'Checkbox - Incl Sal. Qty <checkbox_salqty>'
 
 Creating Sales Orders
 ---------------------
