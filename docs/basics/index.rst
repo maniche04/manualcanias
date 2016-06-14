@@ -8,3 +8,4 @@ This section discusses the basic operations in canias.
    :caption: Basic Guides
 
    login/index
+   trans_open/index
