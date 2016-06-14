@@ -24,7 +24,7 @@ Filters & Shortcuts
 ^^^^^^^^^^^^^^^^^^^
 The module includes following filters.
 
-.. image:: filter_location.PNG
+.. image:: sitiq_filters.PNG
 	:align: center
 	:scale: 50%
 	:alt: SITIQ window
@@ -33,7 +33,7 @@ The module includes following filters.
 		* **Plant** - The plant for which the information is to be displayed.
 		* **Location1** - This button opens up a dialog to filter for the Warehouses available to the selected plant and company. Multiple selections can be made.
 
-.. image:: sitiq_filters.PNG
+.. image:: filter_location.PNG
 	:align: center
 	:scale: 50%
 	:alt: SITIQ window
