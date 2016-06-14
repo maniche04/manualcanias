@@ -66,16 +66,16 @@ The module includes filters primarily aimed at narrowing down the inventory move
 
 * **Cancel** - If the checkbox is selected, the system displays list of inventory documents that have been cancelled.
 
-* **Source Documents** - As explained here, a inventory movement in Canias is always linked to the source document which could be purchase, sales, transfer orders, etc. This filter option allows the user to narrow down the inventory listings to movements that were generated from a specific source document. Typically the following options are selected from the dropdown.
+As explained here, a inventory movement in Canias is always linked to the source document which could be purchase, sales, transfer orders, etc. This filter option allows the user to narrow down the inventory listings to movements that were generated from a specific source document. Typically the following options are selected from the dropdown.
 
-	* **Purchase Order** - Upon selection of this option, three new input fields are presented. The inventory movements can then be narrowed down to a particular purchase order type, purchase order number or the delivery number.
+* **Purchase Order** - Upon selection of this option, three new input fields are presented. The inventory movements can then be narrowed down to a particular purchase order type, purchase order number or the delivery number.
 
 .. image:: source_po.PNG
 	:align: center
 	:scale: 70%
 	:alt: Source as Purchase Order
 
-	* **Delivery Note** - Upon selection of this option, two new input fields namely Source Type and Source Doc. Num are presented. These input fields can be used to track inventory movements for a particular delivery note.
+* **Delivery Note** - Upon selection of this option, two new input fields namely Source Type and Source Doc. Num are presented. These input fields can be used to track inventory movements for a particular delivery note.
 
 .. image:: source_dn.PNG
 	:align: center
