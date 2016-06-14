@@ -8,7 +8,7 @@ HCMT54 - Biometric Information
 
 Overview
 ---------
-HCMT54 is the module that is related to the management of biometric data for staffs.
+HCMT54 is the module that is related to the management of attendance data for staffs.
 
 .. note:: The documentation for this module is currently incomplete.
 
@@ -18,7 +18,7 @@ Purpose
 
 Adding Biometric Records Manually
 ---------------------------------
-In cases where the biometric records are to be feeded into the system manually, Canias provides a way to create a new biometric record. Following is the step by step guide on how to add a new biometric record.
+In cases where the punch in / out records are to be feeded into the system manually, Canias provides a way to create a new punch in / out record. The steps required have been presented below:
 
 * Open HCMT54.
 * Select the third option from the available options i.e. View / Change / Add Biometric Data as shown below.
@@ -35,7 +35,7 @@ In cases where the biometric records are to be feeded into the system manually, 
 	:scale: 80%
 	:alt: Date Shortcuts
 
-* Select the Person ID for whom the biometric record is to be created. This can be done by clicking the small 'Magnifying Glass' icon shown in the Persid column.
+* Select the Person ID for whom the record is to be created. This can be done by clicking the small 'Magnifying Glass' icon shown in the Persid column.
 
 .. image:: manbio_select.PNG
 	:align: center
