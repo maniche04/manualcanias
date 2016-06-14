@@ -23,11 +23,10 @@ The SITIQ screen is divided into three parts:
 * Filters and Shortcuts
 
 	* The module includes following filters.
-
-.. image:: sitiq.png
-	:align: center
-	:scale: 50%
-	:alt: SITIQ window
+	.. image:: filter_location.PNG
+		:align: center
+		:scale: 50%
+		:alt: SITIQ window
 
 		* **Company** - Company for which the information is to be displayed.
 		* **Plant** - The plant for which the information is to be displayed.
