@@ -41,7 +41,7 @@ The module includes filters primarily aimed at narrowing down the inventory move
 * **Vendor Num.** - Vendor Account number, the purchases from whom are to be listed.
 
 * **Doc Date Interval** - The period for which inventory documents are to be listed.
-
+.. _invdoc-types:
 * **Doc. Type** - The document type of the Inventory Movement. The most common inventory document types has been listed below:
 
 	* AI - Automatic Inventory Issue, which is used for cash / retail sales movement
@@ -104,4 +104,45 @@ Depending on the search filters provided, the system looks up the stock informat
 
 Understanding the Result Table
 ------------------------------
-The result table in INVT05 displays key information related to the item, which as been discussed below:
+The module always displays the details up to the batch level, with the information as explained below:
+
+.. image:: invt05_res1.PNG
+	:align: center
+	:scale: 75%
+	:alt: INVT05 Results 01
+
+.. image:: invt05_res2.PNG
+	:align: center
+	:scale: 75%
+	:alt: INVT05 Results 01
+
+* **Document Date** - The date when the inventory movement document was created.
+* **DType** - The inventory document type. The major document types has been listed :ref:`here<invdoc-types>`.
+* **DocNumber** - The inventory document number.
+* **Item** - As the result set presents item at the material's batch level, there are cases where the same item might appear in an inventory document with two different batch numbers. These two rows in the inventory documents are identified by this reference 'Item Number'. This number is unique for each items in the inventory movement document.
+* **Material** - The material code.
+* **Material Desc** - The material description.
+* **Plant** - The plant to which the inventory movement relates to.
+* **WH** - The warehouse to which the inventory movement relates to.
+* **StockPlace** - The stockplace to which the inventory movement relates to.
+* **SStock** - The special stock reference. This is always '*' for us.
+* **BatchNumber** - The batch number reference for this inventory movement. This is found to be '*' in case of movements which do not have any related source documents.
+* **Postway** - The type of inventory movement i.e. receipt or issue.
+* **StkTy** - The type of stock to which the inventory movement belongs. The possible types are 'Available' and 'Blocked'. Consider a scenario where an item would have to be blocked from displaying as available quantity. In this case, a Stock Adjustment is performed that issues the item from 'Available' status and receives the item to the 'Blocked' status.
+* **SkQuantity** - The quantity of items in the movement.
+* **SkUnit** - The unit measurement for items. This is always 'PCS' for perfumes.
+* **SkQuantity2** - This is always 0.
+* **SkUnit2** - This is always blank.
+* **SType** - The source document type. For example, for the receipt of items against a local purchase document the Inventory Document type would be 'LR' - Local Receipt and the source document type would be 'PL' - Purchase Local.
+* **SourceDocNo** - The source document number.
+
+* **Cust/Vendor** - The customer / vendor related to the particular inventory movement. This field is empty in case of inventory movements like Transfer Orders, Stock Adjustments or other inventory movements that do not originate from sales / purchases.
+* **Cust/Vend** - The customer / vendor name.
+
+.. image:: invt05_cusven.PNG
+	:align: center
+	:scale: 75%
+	:alt: INVT05 Results 01
+
+.. warning:: The columns Cust/Vendor and Cus/Ven. Name are only displayed if the configuration button is ticked. The visibility of this configuration button might be set to false for users without the access rights.
+
