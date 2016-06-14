@@ -26,7 +26,9 @@ The module includes filters primarily aimed at narrowing down the list of items 
 	:alt: SITIQ window
 
 * **Company** - Company for which the information is to be displayed.
+
 .. _filter-plant1:
+
 * **Plant** - The plant for which the information is to be displayed.
 * **Location1** - This button opens up a dialog to filter for the Warehouses available to the selected plant and company. Multiple selections can be made.
 
@@ -42,10 +44,14 @@ The module includes filters primarily aimed at narrowing down the list of items 
 
 	* Any part of the name can be used. For example: 'cool water' when searching for 'DAVIDOFF COOL WATER (L) EDT 100 ml'
 	* The system automatically convers blank spaces to '%' allowing easy search. For example 'cool water 100' will yeild results with all cool water items of size 100ml. Similarly 'c w 100' would yeild the results of items which have c, w and 100 characters in them.
+
 .. _filter-plant2:
+
 * **Plant2** - This is used when the inventory data is to be compared against multiple plants. If this field is provided, the system shows results for both plant 1 and plant 2, in separate columns. Also, the inter plant selling price is shown if defined.
 * **Location2** - This is the filter for warehouses that belong to Plant2. Similar to Plant1, multiple selections can be made.
+
 .. _filter-customer:
+
 * **Customer** - This filter is more of a parameter to the process of creating sales orders. In case prices have been customized per user, this filter determines which price is shown in the SP (Selling Price) field of the result table.
 
 In addition to the filters discussed above, there are checkbox filters that controls the visibility of information in SITIQ.
@@ -53,7 +59,9 @@ In addition to the filters discussed above, there are checkbox filters that cont
 .. info:: These checkboxes might not be available to all users because of the access rights.
 
 * **List Stock Materials?** - If the checkbox is selected, the system only displays items which we currently have in stock in the selected plant / warehouse. To view all items, simply uncheck this checkbox.
+
 .. _checkbox-salqty:
+
 * **Incl. SalQty** - The sales orders created in canias do not reflect in the inventory side untill the delivery note is created and the items are issued out. In this case, the default list shown in SITIQ would display full stock of items, without considering those already created sales orders. This checkbox allows the user to view the net stock for items (available stock - stocks used in current sales orders). Click the checkbox to view Net Quantity, and remove the checkmark to view Gross Quantity.
 * **Change Price?** - This button is a support to the process 'Changing System Selling Price'. Clicking the button shows an additional column in the result table for editing of the system selling prices.
 * **Enable Cost** - This checkbox serves as user access control for display of cost related information for the item. If this checkbox is selected, the fourth tab in the lower section of the screen becomes active. This tab displays weighted average cost rate for the item that is currently selected in the result table.
