@@ -72,8 +72,22 @@ The module includes filters primarily aimed at narrowing down the inventory move
 
 .. image:: source_po.PNG
 	:align: center
-	:scale: 75%
+	:scale: 70%
 	:alt: Source as Purchase Order
+
+	* **Delivery Note** - Upon selection of this option, two new input fields namely Source Type and Source Doc. Num are presented. These input fields can be used to track inventory movements for a particular delivery note.
+
+.. image:: source_dn.PNG
+	:align: center
+	:scale: 70%
+	:alt: Source as Purchase Order
+
+In addition to the normal filters, the module provides shorcuts to different date configurations. The starting date in Doc. Date Interval is changed to match the current selection as the different options are clicked.
+
+.. image:: invt05_dateset.PNG
+	:align: center
+	:scale: 80%
+	:alt: Date Shortcuts
 
 
 Searching for Items
