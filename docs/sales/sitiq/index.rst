@@ -22,12 +22,12 @@ The SITIQ screen is divided into three parts:
 
 * Filters and Shortcuts
 
+	* The module includes following filters.
+
 .. image:: sitiq.png
 	:align: center
 	:scale: 50%
 	:alt: SITIQ window
-
-	* The module includes following filters.
 
 		* **Company** - Company for which the information is to be displayed.
 		* **Plant** - The plant for which the information is to be displayed.
