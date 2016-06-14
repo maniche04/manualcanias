@@ -109,7 +109,7 @@ The result table in SITIQ displays key information related to the item, which as
 
 * **Stock2** - The available stock for items in :ref:`Plant 2<filter-plant2>`.
 
-* **SP** - The price at which the items are meant to be sold from :ref:`Plant 2<filter-plant2>` to :ref:`Plant 1<filter-plant1>`. This price is used when creating inter-company tranfers where available.
+* **SP** - The price at which the items are meant to be sold from :ref:`Plant 2<filter-plant2>` to :ref:`Plant 1<filter-plant1>`. This price is used when creating inter-company tranfers, if available.
 
 * **Material** - The material code for the item.
 
@@ -117,6 +117,10 @@ Creating Sales Orders
 ---------------------
 This section describes how the sales order can be created.
 
+.. info:: This section shall be updated during the creation of guide for 'SALT01 - Sales Documents'.
+
 Creating Transfer Orders
 ------------------------
 This section describes how the transfer orders can be created.
+
+.. info:: This section shall be updated in the future.
