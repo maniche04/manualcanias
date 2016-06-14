@@ -86,7 +86,7 @@ The result table in SITIQ displays key information related to the item, which as
 	:alt: SITIQ window
 
 * **Description** - This column displays the name of the Material.
-* **STK** - The second column displays the available stock for the items. The result in this column varies with the filter checkbox 'Incl. SalQty' as described here :ref:`checkbox_salqty`
+* **STK** - The second column displays the available stock for the items. The result in this column varies with the filter checkbox 'Incl. SalQty' as described :ref:`here<checkbox_salqty>`.
 
 Creating Sales Orders
 ---------------------
