@@ -72,14 +72,14 @@ As explained here, a inventory movement in Canias is always linked to the source
 
 .. image:: source_po.PNG
 	:align: center
-	:scale: 70%
+	:scale: 80%
 	:alt: Source as Purchase Order
 
 * **Delivery Note** - Upon selection of this option, two new input fields namely Source Type and Source Doc. Num are presented. These input fields can be used to track inventory movements for a particular delivery note.
 
 .. image:: source_dn.PNG
 	:align: center
-	:scale: 70%
+	:scale: 80%
 	:alt: Source as Purchase Order
 
 In addition to the normal filters, the module provides shorcuts to different date configurations. The starting date in Doc. Date Interval is changed to match the current selection as the different options are clicked.
@@ -90,13 +90,18 @@ In addition to the normal filters, the module provides shorcuts to different dat
 	:alt: Date Shortcuts
 
 
-Searching for Items
--------------------
-* Enter the required filter criterias in the filter boxes. Most commonly the filters would be entered in the 'Description' field where any part of the name of the item is entered.
+Searching for Inventory Movements
+---------------------------------
+* Enter the required filter criterias in the filter boxes.
 * Press the 'F3' button or click the 'Search' button.
+
+.. image:: invt05_search.PNG
+	:align: center
+	:scale: 80%
+	:alt: Date Shortcuts
 
 Depending on the search filters provided, the system looks up the stock information and lists them in the result window.
 
 Understanding the Result Table
 ------------------------------
-The result table in SITIQ displays key information related to the item, which as been discussed below:
+The result table in INVT05 displays key information related to the item, which as been discussed below:
