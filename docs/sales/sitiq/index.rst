@@ -23,19 +23,19 @@ The SITIQ screen is divided into three parts:
 * Filters and Shortcuts
 
 	* The module includes following filters.
-	.. image:: filter_location.PNG
-		:align: center
-		:scale: 50%
-		:alt: SITIQ window
+.. image:: filter_location.PNG
+	:align: center
+	:scale: 50%
+	:alt: SITIQ window
 
 		* **Company** - Company for which the information is to be displayed.
 		* **Plant** - The plant for which the information is to be displayed.
 		* **Location1** - This button opens up a dialog to filter for the Warehouses available to the selected plant and company. Multiple selections can be made.
 
-		.. image:: filter_location.png
-			:align: center
-			:scale: 50%
-			:alt: SITIQ window
+.. image:: filter_location.png
+	:align: center
+	:scale: 50%
+	:alt: SITIQ window
 
 		* **Material** - Filter that accepts the Material Code as input.
 		* **Material Name** - This is the filter which accepts the material name (or part of it) as input. This is the most common filter used in the transaction, and can be used as a handy shortcut to quickly find items. This has been discussed in detail below:
