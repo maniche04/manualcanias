@@ -28,7 +28,8 @@ The module includes filters primarily aimed at narrowing down the list of items 
 * **Company** - Company for which the information is to be displayed.
 .. _filter-plant1:
 
-* **Plant** - The plant for which the information is to be displayed.
+* **Plant** - The plant for which the information is to be displayed. This can be referred as Plant 1.
+
 * **Location1** - This button opens up a dialog to filter for the Warehouses available to the selected plant and company. Multiple selections can be made.
 
 .. image:: filter_location.PNG
@@ -37,6 +38,7 @@ The module includes filters primarily aimed at narrowing down the list of items 
 	:alt: SITIQ window
 
 * **Material** - Filter that accepts the Material Code as input.
+
 * **Material Name** - This is the filter which accepts the material name (or part of it) as input.
 
 	.. note:: This is the most common filter used in the transaction, and can be used as a handy shortcut to quickly find items.
@@ -46,6 +48,7 @@ The module includes filters primarily aimed at narrowing down the list of items 
 .. _filter-plant2:
 
 * **Plant2** - This is used when the inventory data is to be compared against multiple plants. If this field is provided, the system shows results for both plant 1 and plant 2, in separate columns. Also, the inter plant selling price is shown if defined.
+
 * **Location2** - This is the filter for warehouses that belong to Plant2. Similar to Plant1, multiple selections can be made.
 .. _filter-customer:
 
@@ -56,10 +59,12 @@ In addition to the filters discussed above, there are checkbox filters that cont
 .. info:: These checkboxes might not be available to all users because of the access rights.
 
 * **List Stock Materials?** - If the checkbox is selected, the system only displays items which we currently have in stock in the selected plant / warehouse. To view all items, simply uncheck this checkbox.
-.. _checkbox-salqty:
+.. _checkbox-salqty: 
 
 * **Incl. SalQty** - The sales orders created in canias do not reflect in the inventory side untill the delivery note is created and the items are issued out. In this case, the default list shown in SITIQ would display full stock of items, without considering those already created sales orders. This checkbox allows the user to view the net stock for items (available stock - stocks used in current sales orders). Click the checkbox to view Net Quantity, and remove the checkmark to view Gross Quantity.
+
 * **Change Price?** - This button is a support to the process 'Changing System Selling Price'. Clicking the button shows an additional column in the result table for editing of the system selling prices.
+
 * **Enable Cost** - This checkbox serves as user access control for display of cost related information for the item. If this checkbox is selected, the fourth tab in the lower section of the screen becomes active. This tab displays weighted average cost rate for the item that is currently selected in the result table.
 
 .. image:: sitiq_costinfo.PNG
@@ -91,13 +96,21 @@ The result table in SITIQ displays key information related to the item, which as
 	:alt: SITIQ window
 
 * **Description** - This column displays the name of the Material.
+
 * **STK** - The second column displays the available stock for the items in :ref:`Plant 1<filter-plant1>`. The result in this column varies with the filter checkbox 'Incl. SalQty' as described :ref:`here<checkbox_salqty>`. The title for this column is dynamic with the following pattern 'Short Name of Plant' + STK.
+
 * **Cost** - The pack price of the item. 'Pack Price' is a customized development in Canias, which is meant to replace the Cost Price. Although this value is the same as the 'Cost Price', it can be modified to present a value different from the Cost Price.
+
 * **SP** - The Selling Price of the item. This column depends on the Customer that is currently selected as described :ref:`here<filter-customer>`.
+
 * **SP(USD)** - The Selling Price of the item in USD.
+
 * **MP** - The Market Price of the Item. This information might not be available for all items as the source for this is manual input only.
+
 * **Stock2** - The available stock for items in :ref:`Plant 2<filter-plant2>`.
+
 * **SP** - The price at which the items are meant to be sold from :ref:`Plant 2<filter-plant2>` to :ref:`Plant 1<filter-plant1>`. This price is used when creating inter-company tranfers where available.
+
 * **Material** - The material code for the item.
 
 Creating Sales Orders
