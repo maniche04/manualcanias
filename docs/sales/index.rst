@@ -8,4 +8,3 @@ Sales Module is for creation of all sales related transactions in the system.
    :caption: List of Transactions
 
    sitiq/index
-   salt01/index
