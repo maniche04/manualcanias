@@ -16,13 +16,9 @@ Purpose
 * Shortcut to creation of sales orders
 * Creation of transfer orders (within the same plant or among different plants)
 
-SITIQ Screen
-------------
-The SITIQ screen is divided into three parts:
-
-Filters & Shortcuts
-^^^^^^^^^^^^^^^^^^^
-The module includes following filters.
+Filters and Shortcuts
+---------------------
+The module includes filters primarily aimed at narrowing down the list of items fetched by the system.
 
 .. image:: sitiq_filters.PNG
 	:align: center
@@ -42,7 +38,7 @@ The module includes following filters.
 * **Material Name** - This is the filter which accepts the material name (or part of it) as input.
 
 	.. note:: This is the most common filter used in the transaction, and can be used as a handy shortcut to quickly find items.
-	
+
 	* Any part of the name can be used. For example: 'cool water' when searching for 'DAVIDOFF COOL WATER (L) EDT 100 ml'
 	* The system automatically convers blank spaces to '%' allowing easy search. For example 'cool water 100' will yeild results with all cool water items of size 100ml. Similarly 'c w 100' would yeild the results of items which have c, w and 100 characters in them.
 
@@ -50,11 +46,26 @@ The module includes following filters.
 * **Location2** - This is the filter for warehouses that belong to Plant2. Similar to Plant1, multiple selections can be made.
 * **Customer** - This filter is more of a parameter to the process of creating sales orders. In case prices have been customized per user, this filter determines which price is shown in the SP (Selling Price) field of the result table.
 
-Result Table
-^^^^^^^^^^^^^^^^^^^
+In addition to the filters discussed above, there are checkbox filters that controls the visibility of information in SITIQ.
 
-Processes (Sales / Transfer) and Additional Information
-^^^^^^^^^^^^^^^^^^^
+.. warning:: These checkboxes might not be available to all users because of the access rights.
+
+* **List Stock Materials?** - If the checkbox is selected, the system only displays items which we currently have in stock in the selected plant / warehouse. To view all items, simply uncheck this checkbox.
+* **Incl. SalQty** - The sales orders created in canias do not reflect in the inventory side untill the delivery note is created and the items are issued out. In this case, the default list shown in SITIQ would display full stock of items, without considering those already created sales orders. This checkbox allows the user to view the net stock for items (available stock - stocks used in current sales orders). Click the checkbox to view Net Quantity, and remove the checkmark to view Gross Quantity.
+* **Change Price?** - This button is a support to the process 'Changing System Selling Price'. Clicking the button shows an additional column in the result table for editing of the system selling prices.
+* **Enable Cost** - This checkbox serves as user access control for display of cost related information for the item. If this checkbox is selected, the fourth tab in the lower section of the screen becomes active. This tab displays weighted average cost rate for the item that is currently selected in the result table.
+
+.. image:: sitiq_costinfo.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ window
+
+* **Show Stock** - This checkbox serves as user access control for display of stocks across all companies and plants in canias. If this checkbox is selected, the first tab in the lower part of screen becomes active. This tab displays the availability of selected item from the result set in all plants and warehouse.
+
+View Stock Status
+-----------------
+* Enter the required filter criterias in the filter boxes. Most commonly the filters would be entered in the 'Description' field where any part of the name of the item is entered.
+* Press the 'F3' button or click the 'Search' button.
 
 Creating Sales Orders
 ---------------------
