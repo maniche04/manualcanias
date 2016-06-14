@@ -26,6 +26,7 @@ The module includes filters primarily aimed at narrowing down the list of items 
 	:alt: SITIQ window
 
 * **Company** - Company for which the information is to be displayed.
+.. _filter-plant1:
 * **Plant** - The plant for which the information is to be displayed.
 * **Location1** - This button opens up a dialog to filter for the Warehouses available to the selected plant and company. Multiple selections can be made.
 
@@ -41,9 +42,10 @@ The module includes filters primarily aimed at narrowing down the list of items 
 
 	* Any part of the name can be used. For example: 'cool water' when searching for 'DAVIDOFF COOL WATER (L) EDT 100 ml'
 	* The system automatically convers blank spaces to '%' allowing easy search. For example 'cool water 100' will yeild results with all cool water items of size 100ml. Similarly 'c w 100' would yeild the results of items which have c, w and 100 characters in them.
-
+.. _filter-plant2:
 * **Plant2** - This is used when the inventory data is to be compared against multiple plants. If this field is provided, the system shows results for both plant 1 and plant 2, in separate columns. Also, the inter plant selling price is shown if defined.
 * **Location2** - This is the filter for warehouses that belong to Plant2. Similar to Plant1, multiple selections can be made.
+.. _filter-customer:
 * **Customer** - This filter is more of a parameter to the process of creating sales orders. In case prices have been customized per user, this filter determines which price is shown in the SP (Selling Price) field of the result table.
 
 In addition to the filters discussed above, there are checkbox filters that controls the visibility of information in SITIQ.
@@ -85,7 +87,14 @@ The result table in SITIQ displays key information related to the item, which as
 	:alt: SITIQ window
 
 * **Description** - This column displays the name of the Material.
-* **STK** - The second column displays the available stock for the items. The result in this column varies with the filter checkbox 'Incl. SalQty' as described :ref:`here<checkbox_salqty>`.
+* **STK** - The second column displays the available stock for the items in :ref:`Plant 1<filter-plant1>`. The result in this column varies with the filter checkbox 'Incl. SalQty' as described :ref:`here<checkbox_salqty>`. The title for this column is dynamic with the following pattern 'Short Name of Plant' + STK.
+* **Cost** - The pack price of the item. 'Pack Price' is a customized development in Canias, which is meant to replace the Cost Price. Although this value is the same as the 'Cost Price', it can be modified to present a value different from the Cost Price.
+* **SP** - The Selling Price of the item. This column depends on the Customer that is currently selected as described :ref:`here<filter-customer>`.
+* **SP(USD)** - The Selling Price of the item in USD.
+* **MP** - The Market Price of the Item. This information might not be available for all items as the source for this is manual input only.
+* **Stock2** - The available stock for items in :ref:`Plant 2<filter-plant2>`.
+* **SP** - The price at which the items are meant to be sold from :ref:`Plant 2<filter-plant2>` to :ref:`Plant 1<filter-plant1>`. This price is used when creating inter-company tranfers where available.
+* **Material** - The material code for the item.
 
 Creating Sales Orders
 ---------------------
