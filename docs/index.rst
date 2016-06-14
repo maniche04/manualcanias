@@ -12,7 +12,7 @@ The Canias ERP Manual has been developed to centralize the manuals and how-to's 
 * :ref:`user-docs`
 * :ref:`dev-docs`
 
-.. warning:: This documentation is currenty a work in progress. In case of any enquiries kinldy email manish@jizanperfumes.com
+.. warning:: This Canias ERP documentation is currenty a work in progress and does not cover the entire system. In case of any enquiries / feedback / missing information in the manual kinldy email manish@jizanperfumes.com.
 
 .. _user-docs:
 
