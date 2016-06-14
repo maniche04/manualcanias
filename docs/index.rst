@@ -22,6 +22,7 @@ The Canias ERP Manual has been developed to centralize the manuals and how-to's 
 
    basics/index
    sales/index
+   inventory/index
 
 .. _dev-docs:
 
