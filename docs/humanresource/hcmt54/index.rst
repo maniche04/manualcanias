@@ -16,8 +16,8 @@ Purpose
 -------
 * Adding of Biometric Records
 
-Adding Biometric Records Manually
----------------------------------
+Adding Records Manually
+-----------------------
 In cases where the punch in / out records are to be feeded into the system manually, Canias provides a way to create a new punch in / out record. The steps required have been presented below:
 
 * Open HCMT54.
