@@ -35,7 +35,7 @@ In cases where the biometric records are to be feeded into the system manually, 
 	:scale: 80%
 	:alt: Date Shortcuts
 
-* Select the Person ID from whom the biometric record is to be created. This can be done by clicking the small 'Magnifying Glass' icon shown in the Persid column.
+* Select the Person ID for whom the biometric record is to be created. This can be done by clicking the small 'Magnifying Glass' icon shown in the Persid column.
 
 .. image:: manbio_select.PNG
 	:align: center
@@ -65,8 +65,8 @@ In cases where the biometric records are to be feeded into the system manually, 
 
 * Enter the name of the Person in the 'Reference Perid' field.
 * Enter the relevant date in the 'Work Date' field. This should be in DD.MM.YYYY format. Alternatively the date can be selected by clicking the 'Magnifying Glass' icon in the same field.
-* Enter the time in the 'Work Time' field. This should be a 24 hrs time with the format HH:MM ex. 10:54, 19:35.
-* Select the Function Key for this particular bio metric record. Clicking on the 'Magnifying Glass' icon in the 'Function Key' column brings up the function key selection dialog.
+* Enter the time in the 'Work Time' field. This should be a 24 hrs time with the format HH:MM. For exampl: 10:54, 19:35.
+* Select the Function Key to be used for this particular record. Clicking the 'Magnifying Glass' icon in the 'Function Key' column brings up the function key selection dialog.
 
 .. image:: manbio_function.PNG
 	:align: center

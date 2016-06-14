@@ -1,5 +1,5 @@
-Human Resources Management Module
-********************************
+HR Module
+*********
 
 Human Resources Management Module is for the management of employess and related data in the system.
 
