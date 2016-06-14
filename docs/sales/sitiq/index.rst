@@ -19,6 +19,7 @@ Purpose
 SITIQ Screen
 ------------
 The SITIQ screen is divided into three parts:
+
 * Filters and Shortcuts
 
 .. image:: sitiq.png
