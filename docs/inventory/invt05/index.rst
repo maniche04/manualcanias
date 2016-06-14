@@ -139,6 +139,10 @@ The module always displays the details up to the batch level, with the informati
 Customer / Vendor Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The information on Customer / Vendor is linked to the sales and purchase related documents. Inventory movements that originate from these sales and purchase document in themselves do not store the information on customer / vendor. As the tracking of inventory to customer / vendor is essential in most cases, INVT05 provides the information on customer / vendor in the result set by looking them up from the related sales / purchase document.
+
+.. warning:: The information on customer / vendor is only visible when the 'Customer / Vendor Show' checkbox is ticked. The visibility of this configuration button might be set to false for users without the access rights.
+
 * **Cust/Vendor** - The customer / vendor related to the particular inventory movement. This field is empty in case of inventory movements like Transfer Orders, Stock Adjustments or other inventory movements that do not originate from sales / purchases.
 * **Cust/Vend** - The customer / vendor name.
 
@@ -147,5 +151,5 @@ Customer / Vendor Information
 	:scale: 75%
 	:alt: INVT05 Results 01
 
-.. warning:: The columns Cust/Vendor and Cus/Ven. Name are only displayed if the configuration button is ticked. The visibility of this configuration button might be set to false for users without the access rights.
+
 
