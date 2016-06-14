@@ -23,6 +23,7 @@ The SITIQ screen is divided into three parts:
 Filters & Shortcuts
 ^^^^^^^^^^^^^^^^^^^
 The module includes following filters.
+
 .. image:: filter_location.PNG
 	:align: center
 	:scale: 50%
