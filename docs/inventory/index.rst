@@ -9,3 +9,4 @@ Inventory Module is for creation of all inventory related documents in the syste
 
    invt05/index
    invt21/index
+   invt22/index
