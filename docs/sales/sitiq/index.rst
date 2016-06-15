@@ -113,6 +113,55 @@ The result table in SITIQ displays key information related to the item, which as
 
 * **Material** - The material code for the item.
 
+Purchase and Sales History
+--------------------------
+The module provides quick access to the Purchase and Sales History for any item. To view the sales or purchase history, select the row for the specific item in the result table:
+
+.. image:: sitiq_itemselect.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ - Selection of Item
+
+Purchase History
+^^^^^^^^^^^^^^^^
+Purchase History for the selected item can be viewed by clicking on the 'Purchase History' button or by pressing the 'F4' key in the keyboard.
+
+.. image:: sitiq_purhistory.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ - Purchase History
+
+The purchase history dialog displays the last 30 purchase transactions for the selected item. Order Date range can be provided in the dialog box to search for the transactions within a specific period.
+
+.. image:: purhistory_dates.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ - Purchase History
+
+The fields displayed in the result set for Purchase History has been discussed below:
+
+* **Plant** - The plant related to the purchase.
+* **Order Date** - The date when Purchase Order was raised.
+* **Doc Type** - The purchase order type. This is typically PL for Local Purchases and PI for Import Purchases.
+* **Doc Num** - The document number for the purchase order.
+* **WH** - The warehouse as defined in the purchase order document.
+* **Vendor** - The Vendor Code for the purchase.
+* **Vendor Name** - The name of the Vendor.
+* **Quantity** - Quantity of Items Purchased.
+* **Unit** - The currency unit for the purchase.
+* **LP(AED)** - The price of the item.
+* **Pur Dept** - The purchaser, as defined in the purchase order.
+* **Item Num** - Every item in the purchase order is provided a unique identification number called 'Item Num'.
+
+.. note:: The 'Vendor Name' field is only displayed if the Show Vendor button is checked. The visibility of this checkbox might differ based on user access rights.
+
+In addition to the information above, the purchase history dialog also allows the user to track the arrival date of the item. This can be seen in the lower part of the purchase history dialog after a row of purchase history has been selected.
+
+.. image:: purhistory_arrival.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ - Purchase History Arrival Dates
+
 Creating Sales Orders
 ---------------------
 This section describes how the sales order can be created.
