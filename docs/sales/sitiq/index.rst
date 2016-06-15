@@ -131,7 +131,7 @@ Purchase History for the selected item can be viewed by clicking on the 'Purchas
 	:scale: 75%
 	:alt: SITIQ - Purchase History
 
-The purchase history dialog displays the last 30 purchase transactions for the selected item. Order Date range can be provided in the dialog box to search for the transactions within a specific period.
+The purchase history dialog displays the last 30 purchase transactions for the selected item. Order Date range can be provided in the dialog box to search for the transactions within a specific period. Also, the number of rows displayed can be set by typing in the desired number in Row Count field.
 
 .. image:: purhistory_dates.PNG
 	:align: center
@@ -161,6 +161,40 @@ In addition to the information above, the purchase history dialog also allows th
 	:align: center
 	:scale: 75%
 	:alt: SITIQ - Purchase History Arrival Dates
+
+Sales History
+^^^^^^^^^^^^^
+Sales History for the selected item can be viewed by clicking on the 'Sales History' button or by pressing the 'F2' key in the keyboard.
+
+.. image:: sitiq_purhistory.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ - Sales History
+
+The sales history dialog displays the last 30 sales transactions for the selected item. Order date range can be provided in the dialog box to search for sales transactions within a specific period. Also, the number of rows displayed can be set by typing in the desired number in Row Count field.
+
+.. image:: salhistory_dates.PNG
+	:align: center
+	:scale: 75%
+	:alt: SITIQ - Purchase History
+
+The fields displayed in the result set for Sales History has been discussed below:
+
+* **Warehouse** - The warehouse from which the items are to be issued out.
+* **Plant** - The plant to which the sale relates to.
+* **Order Date** - The Sales Order date.
+* **Doc Type** - The sales document type. Typical documents are RI - Retail Invoice, LO - Local Sales Order, EO - Export Sales Order
+* **Doc NUm** - The sales order document number.
+* **Customer Code** - The customer for whom the sales order was made.
+* **Customer Name** - The customer name defined in the system.
+* **Name2** - The seconday name field for Customer. This is particularly used when an account has not been created in the customer and a generic account like 'Miscellaneous Customer', 'Temporary Customer', 'Cash Customer', 'Credit Card Customer', etc is used. This field is manually entered by the person who is creating the sales order.
+* **Quantity** - The quantity of the item sold in the particular sales order.
+* **Unit Price** - Unit price of the item (before discount).
+* **Discount** - Total discount provided for the item (item level discount + allocation of header level discount).
+* **Net Sale** - Unit price of the item (after discount).
+* **Unit Curr** - The sales currency for the sales order.
+* **Sales Dept** - The salesman who created the sales order.
+* **Item Num** - The item number reference is assigned to each material inside a sales order.
 
 Creating Sales Orders
 ---------------------
