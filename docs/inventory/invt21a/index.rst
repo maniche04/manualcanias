@@ -74,7 +74,7 @@ The print format of this report can be accessed by clicking the 'Print' button v
 
 Clicking on the 'Print' button generates a PDF File and displays it in the screen.
 
-.. image:: invt21a_printresult.PNG
+.. image:: invt21_printresult.PNG
 	:align: center
 	:scale: 80%
 	:alt: INVT05 Results 01
