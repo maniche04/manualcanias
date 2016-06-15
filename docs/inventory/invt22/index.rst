@@ -55,4 +55,37 @@ Understanding the Result Table
 ------------------------------
 The module always displays several columns with the information on receipt, issue and balances of the items. These have been discussed below:
 
+.. image:: invt22_result.PNG
+    :align: center
+    :scale: 80%
+    :alt: INVT22 results
 
+* **Doc** - This is the Inventory Movement Type. For example: LI for Local Issue against Delivery Note, LR for Local Receipt against Purchase Order
+* **Num** - The inventory document number.
+* **D.T** - The source document type. This would be LW for LI inventory movements, PO for LR inventory movements.
+* **D.N** - The source document number like Purchase Order Number or the Sales Delivery Note number.
+* **Num** - Every row in the inventory movement document has a unique identification number.
+* **Date** - The date of the inventory movement.
+* **Description** - The description of inventory movement in text form.
+* **R.Qty** - Quantity Received
+* **R.Rate** - The Cost Rate for items received.
+* **R.Value** - The Total Cost for items received.
+* **I.Qty** - Quantity Issued
+* **I.Rate** - The Cost Rate for items issued.
+* **I.Value** - The Total Cost for items issued.
+* **B.Qty** - The balance quantity after considering opening quantity, receipts and issues. This is a cumulative figure.
+* **B.Rate** - The Cost Rate for remaining / balance quantity.
+* **B.Val** - The Total Cost for remaining / balance quantity.
+* **WH** - The warehouse related to the inventory movement.
+* **St. Place** - The stock place related to the inventory movement.
+* **Issue?** - This checkbox shows whether the inventory movement is a receipt or issue. In case it is checked it is an issue movement, else it is a receipt movement.
+* **Source DT.** - The system registers a specific document type for inventory movements based on the type of source document. For example, for AI - Automatic Issue movements, the code is 6. Similarly the code for LR - Local Purchase Receipt is 2. These codes are only used for reference and generally can be ignored.
+
+The result set also displays information on Opening Balance and the Closing Balance. These rows sum present cumulative balances in terms of quantity and total cost values.
+
+In addition to the information above, the Customer and Vendor information can be viewed in the result set by enabling the option 'Hide / Show'.
+
+.. image:: invt22_cusven.PNG
+    :align: center
+    :scale: 80%
+    :alt: Show / Hide Vendor
