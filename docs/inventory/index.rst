@@ -8,3 +8,4 @@ Inventory Module is for creation of all inventory related documents in the syste
    :caption: List of Transactions
 
    invt05/index
+   invt21/index
