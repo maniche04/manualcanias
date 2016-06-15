@@ -83,9 +83,24 @@ The module always displays several columns with the information on receipt, issu
 
 The result set also displays information on Opening Balance and the Closing Balance. These rows sum present cumulative balances in terms of quantity and total cost values.
 
+Customer / Vendor Information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 In addition to the information above, the Customer and Vendor information can be viewed in the result set by enabling the option 'Hide / Show'.
+
+.. note:: The visibility of this configuration button 'Hide / Show' might not be visible to some users because of user access restrictions.
 
 .. image:: invt22_cusven.PNG
     :align: center
     :scale: 80%
     :alt: Show / Hide Vendor
+
+.. image:: invt22_cusvendetails.PNG
+    :align: center
+    :scale: 80%
+    :alt: Show / Hide Vendor
+
+* **Customer Num.** - The customer account number.
+* **Vendor Num.** - The vendor account number.
+* **Cust./Ven. Name** - The name of Customer / Vendor.
+
