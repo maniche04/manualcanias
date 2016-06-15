@@ -3,7 +3,7 @@ SITIQ - Item Enquiry
 
 .. image:: sitiq.png
     :align: center
-    :scale: 50%
+    :scale: 65%
     :alt: SITIQ window
 
 Overview
@@ -22,7 +22,7 @@ The module includes filters primarily aimed at narrowing down the list of items 
 
 .. image:: sitiq_filters.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ window
 
 * **Company** - Company for which the information is to be displayed.
@@ -34,7 +34,7 @@ The module includes filters primarily aimed at narrowing down the list of items 
 
 .. image:: filter_location.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ window
 
 * **Material** - Filter that accepts the Material Code as input.
@@ -69,7 +69,7 @@ In addition to the filters discussed above, there are checkbox filters that cont
 
 .. image:: sitiq_costinfo.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ window
 
 * **Show Stock** - This checkbox serves as user access control for display of stocks across all companies and plants in canias. If this checkbox is selected, the first tab in the lower part of screen becomes active. This tab displays the availability of selected item from the result set in all plants and warehouse.
@@ -81,7 +81,7 @@ Searching for Items
 
 .. image:: sitiq_search.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ window
 
 Depending on the search filters provided, the system looks up the stock information and lists them in the result window.
@@ -92,7 +92,7 @@ The result table in SITIQ displays key information related to the item, which as
 
 .. image:: sitiq_result.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ window
 
 * **Description** - This column displays the name of the Material.
@@ -119,7 +119,7 @@ The module provides quick access to the Purchase and Sales History for any item.
 
 .. image:: sitiq_itemselect.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ - Selection of Item
 
 Purchase History
@@ -135,7 +135,7 @@ The purchase history dialog displays the last 30 purchase transactions for the s
 
 .. image:: purhistory_dates.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ - Purchase History
 
 The fields displayed in the result set for Purchase History has been discussed below:
@@ -159,23 +159,23 @@ In addition to the information above, the purchase history dialog also allows th
 
 .. image:: purhistory_arrival.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ - Purchase History Arrival Dates
 
 Sales History
 ^^^^^^^^^^^^^
 Sales History for the selected item can be viewed by clicking on the 'Sales History' button or by pressing the 'F2' key in the keyboard.
 
-.. image:: sitiq_purhistory.PNG
+.. image:: sitiq_salhistory.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ - Sales History
 
 The sales history dialog displays the last 30 sales transactions for the selected item. Order date range can be provided in the dialog box to search for sales transactions within a specific period. Also, the number of rows displayed can be set by typing in the desired number in Row Count field.
 
 .. image:: salhistory_dates.PNG
 	:align: center
-	:scale: 75%
+	:scale: 80%
 	:alt: SITIQ - Purchase History
 
 The fields displayed in the result set for Sales History has been discussed below:
