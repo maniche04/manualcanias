@@ -1,5 +1,5 @@
-INVT21 - Stock Report
-*********************
+INVT21 - Stock Report (on a given date)
+***************************************
 
 .. image:: invt21.PNG
     :align: center
@@ -8,7 +8,7 @@ INVT21 - Stock Report
 
 Overview
 ---------
-INVT21 - Stock Report (on a given date), as the name suggests provides the information on the stocks at a choosen point of time. The module presents information at batch level for the materials.
+INVT21 - Stock Report (on a given date), as the name suggests provides the information on the quantity of stocks available at a choosen point of time. The module presents information at batch level for the materials.
 
 Purpose
 -------
@@ -31,7 +31,7 @@ The module offers filters that helps define the core parameters like 'Report Dat
 * **Batch Num** - The specific batch number for which the report is to be shown.
 * **Stock Type** - This dropdown contains a set of different options for type of stock to be displayed.
 
-.. image:: invt21_fitler_stocktype.PNG
+.. image:: invt21_fitler_stocktype.png
     :align: center
     :scale: 65%
     :alt: INVT21 Filter for Stock Type
@@ -75,3 +75,7 @@ The module always displays the details up to the batch level, with the informati
 * **Stock Un.** - The unit of stock. This is always 'PCS' for perfumes.
 * **Description** - The name of the material.
 * **Option Description** - This is always blank for us.
+
+Limitations
+-----------
+* The module only displays the information on quantity of stock available. In case the item rate and total cost of the items at the particular point of time is to be reviewed, this can be looked up in INVT21A, the customized clone of INVT21 that has been created to combat this limiation.
