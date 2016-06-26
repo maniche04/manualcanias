@@ -167,3 +167,19 @@ The 'Ageing' result grid provides the age breakdown of the outstanding (unmatche
 * **Total Balance** - The total outstanding amount.
 * **Amount** - The total outstanding amount.
 * **Breakdown - Dynamic Columns** - The additional columns in the grid are dynamically displayed based into as multiple age groups on the ageing slot's configuration.
+
+Printing Outstanding Statement
+------------------------------
+Once the statement of account is generated from the module for a customer / vendor, the information can be printed to PDF / Printer. Click on the 'Print' button (displayed as printer icon) adjacent to the search button.
+
+.. image:: fint89_print.PNG
+	:align: center
+	:scale: 80%
+	:alt: FINT89 Ageing Result
+
+The system generates a PDF file containing the outstanding statement and the age breakdown as seen below.
+
+.. image:: fint89_printresult.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT89 Ageing Result
