@@ -8,3 +8,4 @@ Finance Module is for creation of all finance related transactions in the system
    :caption: List of Transactions
 
    fint61/index
+   fint89/index

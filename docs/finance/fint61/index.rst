@@ -190,7 +190,7 @@ To enable quick preview of the finance document, tick the 'Open Doc. Quick Previ
 
 .. image:: fint61_quickpreviewbtn.PNG
 	:align: center
-	:scale: 75%
+	:scale: 85%
 	:alt: FINT61 Quick Preview Button
 
-Thereafter, clicking on a particular row in the result grid displays the full details of the related finance document in the lower part of the screen. This quick preview can be hidden anytime by unchecking the 'Open Doc. Quick Preview' checkbox.
+Thereafter, clicking on a particular row in the result grid displays the full details of the related finance document in the lower part of the screen. This quick preview can be disabled anytime by unchecking the 'Open Doc. Quick Preview' checkbox.
