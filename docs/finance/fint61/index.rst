@@ -1,5 +1,5 @@
-INVT05 - Inventory Documents
-****************************
+FINT61 - Account Transactions
+*****************************
 
 .. image:: fint61.PNG
     :align: center
@@ -34,6 +34,7 @@ Search
 	:alt: FINT61 filters - Search
 
 The module provides three choices for the display of account transactions.
+
 * **One Account** - This option is used to view the account transactions for a single account.
 * **Acc. Range** - This option is used to view the transactions for a range of accounts. This is typically useful when reviewing transactions for similar account heads, like 'Staff Salary', 'Staff Medical Expense', etc. in a single screen.
 * **Main Cust.** - This option is similar to One Account option.
@@ -71,6 +72,7 @@ Once the desired account is found, simply select the entire row for the expense 
 When using the 'Acc. Range' as listing mode, the accounts can be selected using the same steps as above, with the step repeated for each start and end accounts in the range.
 
 In either of the above modes, following are fixed mandatory inputs:
+
 * **C.C (Mandatory)** - The company for which we need to view the transactions.
 * **B.A (Mandatory)** - The business area for which we need to view the transactions.
 * **D.T** - The finance document type. This filter can be used to view for example only the Bank Payment documents that affect a particular account by keying in 'BP'.
@@ -143,9 +145,10 @@ As the name suggests, this tab provides checkboxes which can be used to show / h
 * **Ref.DocNum** - Shows / Hides the reference document number (applicable for intercompany transaction)
 * **Voucher Desc.** - Shows / Hides the voucher long description.
 
-Searching for Inventory Movements
+Searching for Account Transactions
 ---------------------------------
-* Enter the required filter criterias in the filter boxes.
+* Select the desired listing mode 'One Account' or 'Acc. Range'
+* Provide the mandatory criterias like company, business area, account and date range.
 * Press the 'F3' button or click the 'Search' button.
 
 .. image:: fint61_search.PNG
@@ -153,11 +156,10 @@ Searching for Inventory Movements
 	:scale: 80%
 	:alt: Date Shortcuts
 
-Depending on the search filters provided, the system looks up the stock information and lists them in the result window.
+Depending on the search filters provided, the system looks up the account transaction and lists them in the result window. In case required, select additional columns to be displayed by selecting the checkboxes provided in the 'Columns' tab.
 
 Understanding the Result Table
 ------------------------------
-The module always displays the details up to the batch level, with the information as explained below:
 
 .. image:: fint61_result.PNG
 	:align: center
