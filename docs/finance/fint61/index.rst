@@ -177,4 +177,20 @@ Understanding the Result Table
 
 In addition to the columns discussed above, the system displays additional columns as per the selection in the 'Column' filter tab. This has been discussed in the earlier segment of this manual.
 
+Document Quick Preview
+----------------------
+FINT61 provides an easy way to view the details of any transaction that appears in the search listing. This quick preview of the full transaction displays all the details of the transaction at an item level as shown below:
 
+.. image:: fint61_quickpreview.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT61 Quick Preview
+
+To enable quick preview of the finance document, tick the 'Open Doc. Quick Preview' checkbox. This is adjacent to the search and print buttons as seen below.
+
+.. image:: fint61_quickpreviewbtn.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT61 Quick Preview Button
+
+Thereafter, clicking on a particular row in the result grid displays the full details of the related finance document in the lower part of the screen. This quick preview can be hidden anytime by unchecking the 'Open Doc. Quick Preview' checkbox.
