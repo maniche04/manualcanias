@@ -1,4 +1,4 @@
-FINT89 - Account Transactions
+FINT89 - Statement of Account
 *****************************
 
 .. image:: fint89.PNG
@@ -8,7 +8,7 @@ FINT89 - Account Transactions
 
 Overview
 ---------
-FINT89 - Statement of Accounts is used to monitor the outstanding balances from customers or to the vendors. Furthermore, this module can also be used to monitor the account balances.
+FINT89 - Statement of Accounts is used to monitor the outstanding balances from customers or to the vendors.
 
 Purpose
 -------
@@ -44,8 +44,8 @@ Viewing the Statement of Account
 
 As the module is used to view statement of accounts for either of 'Customer', 'Vendor' or 'Account', we will look at next step for each of the cases individually:
 
-Customer Statement
-^^^^^^^^^^^^^^^^^^
+Customer Account
+^^^^^^^^^^^^^^^^
 * Select 'Customer' as the droption option from Cust / Vend / Acc.
 * Click on the magnifying glass icon inside the Cust / Vend / Acc input. This brings up an additional dialog for selection of the required customer account.
 
@@ -58,8 +58,8 @@ As seen in the screenshot above, the dialog provides filters like 'Customer' (cu
 
 Once the desired customer is found, we can double click on the row for the customer or select the entire row and click the 'OK' (seen as checkmark icon) button.
 
-Vendor Statement
-^^^^^^^^^^^^^^^^
+Vendor Account
+^^^^^^^^^^^^^^
 * Select 'Vendor' as the droption option from Cust / Vend / Acc.
 * Click on the magnifying glass icon inside the Cust / Vend / Acc input. This brings up an additional dialog for selection of the required vendor account.
 
@@ -71,6 +71,9 @@ Vendor Statement
 As seen in the screenshot above, the dialog provides filters like 'Customer' (vendor number), 'City' and 'Name' (any part of the company name can be entered here enclosed by '%'s. For example: to search for Jizan, we can use '%JIZAN%').
 
 Once the desired vendor is found, we can double click on the row for the vendor or select the entire row and click the 'OK' (seen as checkmark icon) button.
+
+View the Statement
+^^^^^^^^^^^^^^^^^^
 
 * Change the additional filters as required and make sure that all mandatory fields are filled.
 * Press the 'F3' button or click the 'Search' button.
@@ -94,8 +97,73 @@ The first result grid 'Matched Invoices', displays all documents that are alread
 	:alt: FINT61 Result
 
 * **Post Date** - The date when the document was posted in the system.
-* **Doc. Type** - The document type. This typically is Sales Invoices (SI) for customers and Bank Payments (BP) for vendors.
+* **Doc. Type** - The document type.
 * **Doc. No** - The document reference for the transaction.
 * **Itm. No.** - The unique line item for the transaction within the source document.
 * **Sales Type** - This column displays the sales order type in case we are viewing the statement for customer and the doc type is a sales invoice.
-* **Sales Doc** - This column displays the sales order number in case we are viewing the statement for customer and the doc type is a sales invoice. 
+* **Sales Doc** - This column displays the sales order number in case we are viewing the statement for customer and the doc type is a sales invoice.
+* **Debit** - The debit amount of the transaction in the document currency.
+* **Credit** - The credit amount of the transaction in the document currency.
+* **Balance** - The net affect of the transaction in the document currency.
+* **Doc Curr** - The document currency for the transaction.
+* **Cheque Stat** - The status of cheque (only displayed where applicable) 
+* **Dbt(Rep. Cur)** - The debit amount of the transaction in the reporting currency selected.
+* **Crd(Rep. Cur)** - The credit amount of the transaction in the reporting currency selected.
+* **Bal(RepCur)** - The net affect of the transaction in the reporting currency selected.
+* **RepCurr** - The reporting currency selected.
+* **MatchDType** - The corresponding document type with which the current transaction has been matched. 
+* **MatchDnum** - The corresponding document number with which the current transaction has been matched.
+* **MatchedAmnt** - The amount which has been matched (settled).
+
+In case the source document for the transaction needs to be accessed, a quick access shortcut has been included in FINT89. Select the entire row for the transaction you wish to see the source document. Then click on the 'Show Details' button (with an aye icon). This opens up the related transaction with the document.
+
+.. image:: matched_source.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT89 Matched Result
+
+UnMatched Doc List
+^^^^^^^^^^^^^^^^^^
+The result grid 'UnMatched Doc List', displays all documents that have not been settled yet i.e. that have not been matched in the system.
+
+.. image:: fint89_unmatched.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT89 Unmatched Result
+
+* **Post Date** - The date when the document was posted in the system.
+* **Due Date** - The due date for the particular transaction.
+* **Doc. Type** - The document type. 
+* **Doc. No** - The document reference for the transaction.
+* **Itm. No.** - The unique line item for the transaction within the source document.
+* **Sales Type** - This column displays the sales order type in case we are viewing the statement for customer and the doc type is a sales invoice.
+* **Sales Doc** - This column displays the sales order number in case we are viewing the statement for customer and the doc type is a sales invoice.
+* **Debit** - The debit amount of the transaction in the document currency.
+* **Credit** - The credit amount of the transaction in the document currency.
+* **Balance** - The net affect of the transaction in the document currency.
+* **Cheque Stat** - The status of cheque (only displayed where applicable) 
+* **Curr(Doc)** - The document currency for the transaction.
+* **Dbt(Rep. Cur)** - The debit amount of the transaction in the reporting currency selected.
+* **Crd(Rep. Cur)** - The credit amount of the transaction in the reporting currency selected.
+* **Bal(RepCur)** - The net affect of the transaction in the reporting currency selected.
+* **Curr(Rep)** - The reporting currency selected.
+
+Similar to the matched result grid, the quick access to source documents is available via 'Show Details' button (with an eye icon). Select the entire row for the transaction for which you wish to see the source document. Then click the button. This opens up the related transaction with the document.
+
+.. image:: unmatched_source.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT89 UnMatched Result
+
+Ageing
+^^^^^^
+The 'Ageing' result grid provides the age breakdown of the outstanding (unmatched) transactions. The presentation of this result grid depends on the selection of the ageing slot.
+
+.. image:: fint89_ageing.PNG
+	:align: center
+	:scale: 75%
+	:alt: FINT89 Ageing Result
+
+* **Total Balance** - The total outstanding amount.
+* **Amount** - The total outstanding amount.
+* **Breakdown - Dynamic Columns** - The additional columns in the grid are dynamically displayed based into as multiple age groups on the ageing slot's configuration.
