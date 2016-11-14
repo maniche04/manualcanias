@@ -46,7 +46,7 @@ Step by Step Process
 	:scale: 75%
 	:alt: FINT89 Filters
 
-	.. note:: In cases where the supplier code is not available in the system, kindly contact the back office for the creation of the supplier record.
+.. note:: In cases where the supplier code is not available in the system, kindly contact the back office for the creation of the supplier record.
 
 6. Ensure that the Company is set to '02' and Business Area (BA) to '60'.
 
@@ -71,7 +71,7 @@ Step by Step Process
 
 9. Choose the Appropriate Purchase Order date.
 
-.. image:: step009.PNG
+.. image:: step009a.PNG
 	:align: center
 	:scale: 75%
 	:alt: FINT89 Filters
@@ -97,7 +97,7 @@ Step by Step Process
 	:scale: 75%
 	:alt: FINT89 Filters
 
-	.. note:: In cases where the item is new, the material code might not be available in the system for selection. In this case, kinldy contact the back office with the product details (preferably with the EAN Code) for creation of the material code in system.
+.. note:: In cases where the item is new, the material code might not be available in the system for selection. In this case, kinldy contact the back office with the product details (preferably with the EAN Code) for creation of the material code in system.
 
 13. Enter the Quantity and Price in the respective fields.
 
