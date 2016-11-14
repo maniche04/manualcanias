@@ -17,12 +17,13 @@ Step by Step Process
 	:alt: FINT89 Filters
 
 2. Click on the '+' button to create a new order.
+
 .. image:: step002.PNG
 	:align: center
 	:scale: 75%
 	:alt: FINT89 Filters
 
-	.. note:: Make sure that no documents are selected when clicking the '+' button. In case any purchase order is selected while clicking the button, the system copies all the items from the selected purchase order to the new purchase order. This is referred as 'Creation of Purchase Order by Reference' and comes handly when copying the items from purchase orders.
+.. note:: Make sure that no documents are selected when clicking the '+' button. In case any purchase order is selected while clicking the button, the system copies all the items from the selected purchase order to the new purchase order. This is referred as 'Creation of Purchase Order by Reference' and comes handly when copying the items from purchase orders.
 
 3. The system opens a new dialog. Click on the 'Zoom' icon next to the Vendor field to open the supplier selection dialog:
 
