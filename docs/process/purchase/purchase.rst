@@ -17,7 +17,6 @@ Step by Step Process
 	:alt: FINT89 Filters
 
 2. Click on the '+' button to create a new order.
-
 .. image:: step002.PNG
 	:align: center
 	:scale: 75%
